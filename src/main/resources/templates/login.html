@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Lato"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="/css/login.css">
+<link rel="icon" href="/img/cropped-favicon-1-32x32.png" sizes="32x32">
+<title th:text="#{login}"></title>
+</head>
+
+<body>
+
+	<div class="sidenav">
+		<div class="login-main-text">
+			<h2>
+				Register &<br> Login Page
+			</h2>
+			<p>Login or register to access the panel control.</p>
+		</div>
+	</div>
+	<div class="main">
+		<div class="col-md-6 col-sm-12">
+			<div class="login-form">
+
+				<form class="form" method="post" action="/usuarios/login">
+					<div class="form-field">
+						<label for="username" th:text="#{usuario}"></label> 
+						<input class="form-control" type="text" id="username" name="username" autofocus required>
+					</div>
+
+					<div class="form-field">
+						<label for="password" th:text="#{senha}"></label>
+						 <input class="form-control" type="password" id="password" name="password" required>
+					</div>
+
+					<br>
+
+					<div class="form-field">
+						<button type="submit"
+							class="btn btn-black"
+							th:text="#{login}">
+						</button>
+											
+							<a  class="btn btn-secondary" href="/usuarios/cadastrar" th:text="#{cadastrar}"></a>											
+						
+						<br>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<style>
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.main-head {
+	height: 150px;
+	background: #FFF;
+}
+
+.sidenav {
+	height: 100%;
+	background-color: #000;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.main {
+	padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.login-form {
+		margin-top: 10%;
+	}
+	.register-form {
+		margin-top: 10%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.main {
+		margin-left: 40%;
+	}
+	.sidenav {
+		width: 40%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+	}
+	.login-form {
+		margin-top: 80%;
+	}
+	.register-form {
+		margin-top: 20%;
+	}
+}
+
+.login-main-text {
+	margin-top: 20%;
+	padding: 60px;
+	color: #fff;
+}
+
+.login-main-text h2 {
+	font-weight: 300;
+}
+
+.btn-black {
+	background-color: #000 !important;
+	color: #fff;
+}
+</style>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="/materialize/js/materialize.js"></script>
+	<script src="/js/script.js"></script>
+</body>
+</html>

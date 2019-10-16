@@ -1,0 +1,31 @@
+A estudar para as provas da SUB:
+
+SISTEMAS DIGITAIS
+ - Circuitos ok
+ - Binário Negativo
+ - Memória
+ - Contador
+
+DATA DA PROVA
+Prova Substitutiva de Sistemas Digitais e Arquitetura de Computadores Quinta-feira 13/12, Às 19:00. 
+Serão 4 Questões : 
+Circuitos, Binário negativo, Memória e Contador.
+
+CALCULO NUMÉRICO
+ -
+
+DATA DA PROVA
+ - 10/12 - 21hrs
+ - Sala = 104A
+Conteúdo da Prova:
+ - Matrizes e Ajuste Linear Quadrático
+ 
+
+INFRAESTRUTURA E HARDWARE
+ - 
+
+DATA DA PROVA
+A Prova Sub será:
+Dia = 18/12
+Horário = 19h30
+Sala = 501A

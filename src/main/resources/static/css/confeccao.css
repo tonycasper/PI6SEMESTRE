@@ -1,0 +1,48 @@
+
+
+
+
+body {
+    background-image: url(../img/bg-scholarships.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card-header {
+    font-family: 'Graviola', sans-serif;
+    font-size: 2em;
+}
+
+.icons {
+    transform: scale(3);
+    padding: 15px;
+}
+
+.btn-raised {
+    border-radius: 2em !important;
+    background-color: #00e6ac !important;
+}
+
+.btn-send:hover {
+    background-color: #209dc6 !important;
+}
+
+.modal-dialog {
+    overflow-y: initial !important;
+}
+
+.modal-img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.modal-body {
+    height: 150px;
+    overflow-y: auto;
+}
+
+.embed-responsive {
+    margin: 5px;
+}

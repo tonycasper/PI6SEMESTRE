@@ -1,0 +1,7 @@
+Quando a empresa contratar um plano do Health pass ganha o beneficio de chamar um profissional para um dos serviços:
+ - massagem;
+ - ginastica laboral;
+ - yoga;
+
+Na academia pode aceitar receber professores de fora, quando o aluno selecionar e combinar com o professor 
+e ai quem ganha vai ser o professor e academia
